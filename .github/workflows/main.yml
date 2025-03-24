@@ -8,7 +8,7 @@ on:
   pull_request:
     branches:
       - master
-
+# update commmit message 
 jobs:
   generate-sbom:
     runs-on: ubuntu-latest
